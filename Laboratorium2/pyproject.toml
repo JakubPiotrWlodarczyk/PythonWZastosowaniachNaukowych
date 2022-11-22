@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "laboratorium2"
+version = "0.1.0"
+description = ""
+authors = ["Jakub Wlodarczyk"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.10"
+rich = "^12.6.0"
+Pillow = "^9.2.0"
+numpy = "^1.23.4"
+tqdm = "^4.64.1"
+image = "^1.5.33"
+imageio = "^2.22.2"
+numba = "^0.56.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
