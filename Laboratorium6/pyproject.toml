@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "laboratorium6"
+version = "0.1.0"
+description = ""
+authors = ["Jakub Wlodarczyk"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">3.8,<=3.10"
+numpy = "^1.23.5"
+tqdm = "^4.64.1"
+numba = "^0.56.4"
+matplotlib = "^3.6.2"
+jupyterlab = "^3.5.0"
+ipykernel = "^6.17.1"
+ipynb = "^0.5.1"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

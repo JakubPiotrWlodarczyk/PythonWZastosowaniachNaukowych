@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "lab7"
+version = "0.1.0"
+description = ""
+authors = ["Jakub Włodarczyk"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">3.8,<=3.10"
+sympy = "^1.11.1"
+numpy = "^1.23.5"
+matplotlib = "^3.6.2"
+rich = "^12.6.0"
+ipynb = "^0.5.1"
+
+[tool.poetry.group.dev.dependencies]
+tqdm = "^4.64.1"
+ipykernel = "^6.19.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
